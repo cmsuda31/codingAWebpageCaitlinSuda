@@ -1,0 +1,167 @@
+@charset "UTF-8";
+body {
+  background-color: #F9FAFB;
+
+}
+
+header {
+	background-image: url("bckgrnd.jpg");
+	padding: 30px;
+    text-align: center;
+    color: white;
+	
+}
+h1{
+	text-align: center;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+h2{
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+p{
+	font-size: 18px;
+	text-align: justify;        
+	text-align-last: center;    
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+h3{
+	font-size: 26px;
+		text-align: center;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+a {
+	color: #2563EB;
+	text-decoration: none;
+}
+a:hover {
+
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+	color: #1F2937;
+	text-align: center;
+}
+
+
+
+img {
+	padding-right: 20px;
+	padding-bottom: 10px;
+
+
+}
+.float-left{
+		float: left;
+}
+.float-right{
+	float: right;
+padding-top: 30px;
+	padding-left: 40px;
+	padding-bottom: 30px;
+	 margin-right: 60px;
+}
+.float-center{
+	float: center;
+}
+
+.button {
+  display: inline-block;
+    margin: 15px;      
+  background-color: #02195A;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+	text-align: center;
+}
+
+.button:hover {
+  background-color: #011241;
+}
+
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  color: white;
+	text-align: left;
+	
+}
+
+q{  
+display: block;       
+  color: #02195A;
+  font-size: 22px;
+  text-align: center;   
+  margin: 20px 0;       
+		padding-left: 200px;
+	padding-right: 200px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #02195A;
+	  cursor: pointer;
+}
+
+ul li {
+  float: left;
+	width: 25%
+}
+
+ul li a {
+  display: block;
+  color: #F9FAFB;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #011241;
+}
+
+.visited{
+	background-color: #011241;
+	color: #F9FAFB;
+}
+
+
+.video-container {
+  display: flex;
+  justify-content: center;   /* centers horizontally */
+  align-items: center;       /* centers vertically if container has height */
+  padding: 20px;
+}
+
+.video-container iframe {
+  width: 80%;       /* make video responsive */
+  max-width: 800px; /* limit how wide it gets */
+  aspect-ratio: 16 / 9;
+  border-radius: 10px; /* optional rounded corners */
+  box-shadow: 0 0 10px rgba(0,0,0,0.2); /* optional shadow */
+}
+
+.littler{
+		font-size: 14px;
+}
+
+a.hover-change:hover {
+  color: #011241; /* change to red on hover */
+}
